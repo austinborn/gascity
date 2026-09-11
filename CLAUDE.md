@@ -78,8 +78,11 @@ The repository lock or resolution artifact is authoritative. A manifest range or
 
 | You're editing | Topic prefix |
 |---|---|
-| `cmd/**/*` + `internal/**/*` | `cross-cutting-` _(10 ADRs)_ |
-| `internal/**/*` | `internal-` _(5 ADRs)_ |
+| `**/*` | `cross-cutting-` _(18 ADRs)_ |
+| `internal/**` | `internal-` _(10 ADRs)_ |
+| `cmd/gc/**` | `cmd-gc-` _(7 ADRs)_ |
+| `internal/api/dashboardspa/web/frontend/**` | `internal-api-dashboardspa-` _(5 ADRs)_ |
+| `.github/workflows/scripts/**` | `github-workflows-scripts-` _(5 ADRs)_ |
 <!-- actual-ai:adr-governance:end -->
 
 @AGENTS.md
